@@ -1,4 +1,35 @@
 {
+    "config": {
+        "port": 3000,
+        "address": "https://apricot-wildcat-qmcofjig.ws-us04.gitpod.io",
+        "editor": {
+            "mode": "gitpod",
+            "version": "1.0.61"
+        },
+        "dirPath": "./.learn",
+        "configPath": "learn.json",
+        "outputPath": ".learn/dist",
+        "publicPath": "/preview",
+        "grading": "isolated",
+        "exercisesPath": "./exercises",
+        "disableGrading": false,
+        "actions": [
+            "build",
+            "test",
+            "reset",
+            "build",
+            "test",
+            "reset"
+        ]
+    },
+    "entries": {
+        "html": "index.html",
+        "vanillajs": "index.js",
+        "react": "app.jsx",
+        "node": "app.js",
+        "python3": "app.py",
+        "java": "app.java"
+    },
     "port": 3000,
     "address": "https://a59821c5-aefc-458f-84bb-510905bccbff.ws-us03.gitpod.io",
     "editor": "gitpod",
@@ -27,5 +58,393 @@
     "duration": 10,
     "difficulty": "easy",
     "video-solutions": false,
-    "graded": true
+    "graded": true,
+    "session": 75754500358213860,
+    "exercises": [
+        {
+            "position": 0,
+            "path": "exercises/01-hello-world",
+            "slug": "01-hello-world",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "01-hello-world",
+            "graded": false,
+            "files": [
+                {
+                    "path": "exercises/01-hello-world/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/01-hello-world/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 1,
+            "path": "exercises/02-Hello-World",
+            "slug": "02-Hello-World",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "title": "02-Hello-World",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/02-Hello-World/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/02-Hello-World/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/02-Hello-World/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/02-Hello-World/app.py",
+                    "name": "app.py",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/02-Hello-World/test.py",
+                    "name": "test.py",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 2,
+            "path": "exercises/03-What-is-a-function",
+            "slug": "03-What-is-a-function",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "title": "03-What-is-a-function",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/03-What-is-a-function/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03-What-is-a-function/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03-What-is-a-function/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03-What-is-a-function/app.py",
+                    "name": "app.py",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/03-What-is-a-function/tests.py",
+                    "name": "tests.py",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 3,
+            "path": "exercises/04-Call-a-function",
+            "slug": "04-Call-a-function",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "title": "04-Call-a-function",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/04-Call-a-function/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/04-Call-a-function/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/04-Call-a-function/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/04-Call-a-function/app.py",
+                    "name": "app.py",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/04-Call-a-function/tests.py",
+                    "name": "tests.py",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 4,
+            "path": "exercises/05-Defining-vs-Calling-a-function",
+            "slug": "05-Defining-vs-Calling-a-function",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "title": "05-Defining-vs-Calling-a-function",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/05-Defining-vs-Calling-a-function/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/05-Defining-vs-Calling-a-function/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/05-Defining-vs-Calling-a-function/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/05-Defining-vs-Calling-a-function/app.py",
+                    "name": "app.py",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/05-Defining-vs-Calling-a-function/tests.py",
+                    "name": "tests.py",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 5,
+            "path": "exercises/06-lambda-functions",
+            "slug": "06-lambda-functions",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "title": "06-lambda-functions",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/06-lambda-functions/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/06-lambda-functions/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/06-lambda-functions/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/06-lambda-functions/app.py",
+                    "name": "app.py",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/06-lambda-functions/tests.py",
+                    "name": "tests.py",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 6,
+            "path": "exercises/07-lambda-function-two",
+            "slug": "07-lambda-function-two",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "title": "07-lambda-function-two",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/07-lambda-function-two/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/07-lambda-function-two/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/07-lambda-function-two/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/07-lambda-function-two/app.py",
+                    "name": "app.py",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/07-lambda-function-two/tests.py",
+                    "name": "tests.py",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 7,
+            "path": "exercises/08-Function-that-returns",
+            "slug": "08-Function-that-returns",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "title": "08-Function-that-returns",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/08-Function-that-returns/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/08-Function-that-returns/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/08-Function-that-returns/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/08-Function-that-returns/app.py",
+                    "name": "app.py",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/08-Function-that-returns/test.py",
+                    "name": "test.py",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 8,
+            "path": "exercises/09-Function-parameters",
+            "slug": "09-Function-parameters",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "title": "09-Function-parameters",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/09-Function-parameters/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/09-Function-parameters/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/09-Function-parameters/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/09-Function-parameters/app.py",
+                    "name": "app.py",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/09-Function-parameters/tests.py",
+                    "name": "tests.py",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 9,
+            "path": "exercises/10-Array-Methods",
+            "slug": "10-Array-Methods",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "title": "10-Array-Methods",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/10-Array-Methods/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/10-Array-Methods/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/10-Array-Methods/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/10-Array-Methods/app.py",
+                    "name": "app.py",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/10-Array-Methods/tests.py",
+                    "name": "tests.py",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        }
+    ]
 }
